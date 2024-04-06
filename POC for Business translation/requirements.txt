@@ -1,0 +1,4 @@
+Open AI paid version account for using open AI module
+model="gpt-3.5-turbo"	
+
+
