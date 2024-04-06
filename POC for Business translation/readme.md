@@ -1,16 +1,18 @@
                          Text Translation Utility
 
-Description
+Description:
+
 This utility is designed to translate text from one language to another using
 OpenAI's GPT-3.5 Turbo model. It reads a source text file, translates the
 content, and writes the translated text to a new file. This script is useful
 for quick translations of documents or any text files from Spanish to English 
 or any other language pairs supported by OpenAI.
 
-Requirements
+Requirements:
+
 Python 3.x
 openai Python package
-To install the required package, run:
+
 
 bash
 Copy code
@@ -19,12 +21,11 @@ Configuration
 Before running the script, you need to set up your OpenAI API key. This can be done by setting an environment variable OPENAI_API_KEY with your API key as the value.
 
 For Unix/Linux/macOS:
-
 bash
 Copy code
 export OPENAI_API_KEY='your_api_key_here'
-For Windows:
 
+For Windows:
 cmd
 Copy code
 set OPENAI_API_KEY=your_api_key_here
@@ -36,7 +37,7 @@ Specify the source_language and target_language in the script. The default is
 set from Spanish to English.
 
 
-Limitations
+Limitations:
 The accuracy of the translation may vary depending on the complexity of the text and the languages involved.
 The script uses OpenAI's GPT-3.5 Turbo model, which may incur costs based on usage. Please check OpenAI's pricing details.
 Troubleshooting
